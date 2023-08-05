@@ -39,6 +39,7 @@ mark {
 /* for home and section page */
 .first-entry {
     position: relative;
+    height: 20vh;
     margin: calc(var(--gap) * 5) 0 calc(var(--gap) * 10) 0;
 }
 
