@@ -1,0 +1,30 @@
+baseURL: 'https://abetterride.app/'
+languageCode: 'en-us'
+title: 'A Better Ride'
+theme: 'papermodx'
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        style: dracula
+        lineNos: false
+        noClasses: false
+
+menu:
+      main:
+        - name: "Made live on Twitch"
+          url: "https://twitch.tv/edfungus"
+          params:
+            external: true
+
+params:
+    homeInfoParams:
+        Title: The app that helps you **navigate car free**
+        Content: Get realtime transit arrivals in San Francisco.
+    logo:
+        text: A Better Ride
+        icon: /logo.png
+    EnableInstantClick: true
+    EnableImageZoom: true
