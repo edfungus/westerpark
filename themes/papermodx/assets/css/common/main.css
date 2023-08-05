@@ -39,7 +39,7 @@ mark {
 /* for home and section page */
 .first-entry {
     position: relative;
-    margin: var(--gap) 0 calc(var(--gap) * 2) 0;
+    margin: calc(var(--gap) * 5) 0 calc(var(--gap) * 10) 0;
 }
 
 .first-entry .entry-header {
