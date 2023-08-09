@@ -7,8 +7,7 @@ Truncated: false
 
 Woo! The MVP is now out.
 
-<!-- ![Screenshot](/screenshot.jpg) -->
-<img src="/screenshot.jpg" alt="screenshot" height="500"/>
+<img src="/hello-world.jpg" alt="screenshot" height="500"/>
 
 This first release includes:
 

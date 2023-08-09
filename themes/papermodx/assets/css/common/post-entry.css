@@ -33,6 +33,10 @@
     display: none;
 }
 
+.entry-header {
+    margin-bottom: 10px;
+}
+
 .entry-header h2 {
     font-size: 24px;
     line-height: 1.3;
