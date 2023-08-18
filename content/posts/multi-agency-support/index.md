@@ -1,5 +1,5 @@
 ---
-title: "Added new transit agencies in the Bay"
+title: "Added 32 new transit agencies in the Bay"
 date: 2023-08-17T20:44:04-07:00
 draft: false
 ---
