@@ -21,8 +21,10 @@ menu:
 
 params:
     homeInfoParams:
-        Title: The app that helps you **navigate car free**
-        Content: Get realtime transit arrivals in San Francisco.
+        # Title: The app that helps you use **public transit**.
+        # Title: Make public transit **your transit**.
+        Title: "**Predictable** public transit is **empowering**."
+        Content: See available transit around you in realtime. Bay Area and expanding.
     logo:
         text: A Better Ride
         icon: /logo.png

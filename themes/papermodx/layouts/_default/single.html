@@ -6,13 +6,13 @@
     {{ partial "breadcrumbs.html" . }}
 
     {{- if $isNewsletter -}}
-      {{- partial "newsletter_brand.html" . }}
+    {{- partial "newsletter_brand.html" . }}
     {{- end -}}
     <h1 class="post-title">
       {{- if $isNewsletter -}}
-        {{- replace .Title (.Param "titlePrefix") (.Param "titlePrefixReplace") -}}
+      {{- replace .Title (.Param "titlePrefix") (.Param "titlePrefixReplace") -}}
       {{- else -}}
-        {{- .Title -}}
+      {{- .Title -}}
       {{- end -}}
       {{- if .Draft -}}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end -}}
     </h1>
@@ -54,22 +54,22 @@
     {{- end }}
 
     {{- if $isNewsletter }}
-      <div class="newsletter-sub">
-        <div class="notice">
-          {{- if site.Params.newsletter.notice.usePartial }}
-            {{- partial "newsletter_notice.html"}}
-          {{- else }}
-            {{- site.Params.newsletter.notice.content | default "Thanks for reading, if you like it, please subscribe below." }}
-          {{- end }}
-        </div>
-        {{- partial "newsletter_sub_form.html"}}
+    <div class="newsletter-sub">
+      <div class="notice">
+        {{- if site.Params.newsletter.notice.usePartial }}
+        {{- partial "newsletter_notice.html"}}
+        {{- else }}
+        {{- site.Params.newsletter.notice.content | default "Thanks for reading, if you like it, please subscribe below." }}
+        {{- end }}
       </div>
+      {{- partial "newsletter_sub_form.html"}}
+    </div>
     {{- end }}
   </footer>
 
   {{- if not (.Param "noComments") }}
-    <div class="comments-separator"></div>
-    {{- partial "comments.html" . }}
+  <div class="comments-separator"></div>
+  {{- partial "comments.html" . }}
   {{- end }}
 </article>
 
