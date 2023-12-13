@@ -1,14 +1,21 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-  <header class="entry-header">
-    <h1>{{ .Title | markdownify }}</h1>
-  </header>
-  <section class="entry-content">
-    {{- trim .Content "\n" | markdownify -}}
-  </section>
-  <section class="entry-content-sub">
-    <a href="https://testflight.apple.com/join/8udVF6fj">Download on TestFlight</a>
-  </section>
+  <div style="display: flex; flex-direction:column-reverse; gap:25px; align-items: center;">
+    <div style="flex: 1;">
+      <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+      </header>
+      <section class="entry-content">
+        {{- trim .Content "\n" | markdownify -}}
+      </section>
+      <section class="entry-content-sub">
+        <a href="https://testflight.apple.com/join/8udVF6fj">Download on TestFlight</a>
+      </section>
+    </div>
+    <div style="display: flex; align-self: center;">
+      <img style="display: block;max-width: 650px;max-height: 650px;object-fit: contain;" src="/home-screenshot.png" alt="multi agencies supported" height="500" />
+    </div>
+  </div>
   <!-- <footer class="entry-footer">
     {{- partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg "MaskedEmail"
     site.Params.MaskedEmail "Email" site.Params.Email) -}}
