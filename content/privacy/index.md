@@ -1,11 +1,11 @@
 ---
-title: "Privacy Policy for A Better Ride"
+title: "Privacy Policy"
 date: 2023-12-18T22:34:40-08:00
 draft: false
 ---
 
 
-At A Better Ride, we prioritize your privacy and believe in transparency. Here's a brief overview of our commitment to safeguarding your information:
+At A Better Ride, we respect your privacy and believe in transparency. Here's a brief overview of our commitment to safeguarding your information:
 
 1. **No Personal Information Collection**:
 We do not collect any personal information that can be traced back to you as an individual. 
