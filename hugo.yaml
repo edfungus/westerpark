@@ -24,8 +24,7 @@ params:
         # Title: The app that helps you use **public transit**.
         # Title: Make public transit **your transit**.
         Title: "**Predictable** public transit is **empowering**"
-        Content: Download and make informed transit decisions with realtime departures in the Bay Area!
-        # Content: Download to see realtime transit around you in the Bay Area.
+        Content: Download and make informed transit decisions with realtime departures in the Bay Area and New York City!
     logo:
         text: A Better Ride
         icon: /logo.png
